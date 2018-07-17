@@ -3,7 +3,7 @@ Bundler.require
 
 class MyApp < Sinatra::Base
 
-  get '/' do
+  get "/" do
     erb :index
   end
 
